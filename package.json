@@ -1,0 +1,20 @@
+{
+  "name": "consolelogger",
+  "version": "1.0.0",
+  "description": "console logger for modern SPA",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qnodesign/console.git"
+  },
+  "keywords": ["console", "log"],
+  "author": "Konrad Hefelle",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qnodesign/console/issues"
+  },
+  "homepage": "https://github.com/qnodesign/console#readme"
+}
