@@ -1,5 +1,5 @@
 {
-  "name": "consolelogger",
+  "name": "qno-console",
   "version": "1.0.0",
   "description": "console logger for modern SPA",
   "main": "index.js",
