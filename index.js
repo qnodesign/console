@@ -1,32 +1,32 @@
 /* eslint-disable no-console */
 //log
-export default () => {
+export default (...args) => {
   if (console && console.log) {
-    console.log.apply(console, [...arguments]);
+    console.log.apply(console, [...args]);
   }
 };
 
-export const info = () => {
+export const info = (...args) => {
   if (console && console.info) {
-    console.info.apply(console, [...arguments]);
+    console.info.apply(console, [...args]);
   }
 };
 
-export const warn = () => {
+export const warn = (...args) => {
   if (console && console.warn) {
-    console.warn.apply(console, [...arguments]);
+    console.warn.apply(console, [...args]);
   }
 };
 
-export const error = () => {
+export const error = (...args) => {
   if (console && console.error) {
-    console.error.apply(console, [...arguments]);
+    console.error.apply(console, [...args]);
   }
 };
 
-export const dir = () => {
+export const dir = (...args) => {
   if (console && console.dir) {
-    console.dir.apply(console, [...arguments]);
+    console.dir.apply(console, [...args]);
   }
 };
 /* eslint-enable no-console */
